@@ -1,13 +1,14 @@
 body{
     color: #ffffff;
     background-color: #000000;
-    font: Verdana, "Times New Roman";
+    font-family: Verdana, "Times New Roman";
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 25px;
 }
 h1{
        font-size: 48px;
+       text-align: center;
        padding: 15px;
    }
 h2{
@@ -15,49 +16,51 @@ h2{
      text-shadow: 2px 4px #808080;
 }
 p{
-    font: 24px;
+    font-size: 24px;
     padding-bottom: 15px;
     padding-left: 15px;
 }
 img{
-    width: 350px;
+    width: 330px;
     display: flex;
     margin: auto;
-    border: 10px;
-    border-color: #ffffff;
-    border-style: dashed;
+    border: 10px dashed #ffffff;
 }
 div{
     min-height: 100px;
     padding: 20px;
-    border: 10px;
-    border-color: #FFFFFF;
-    border-style: solid;
+    border: 3px solid #ffffff;
     }
 .intro{
     border-radius: 15px;
     margin-top: 15px;
     }
 .red{
-    background-color: #f00000;
-    text-align: left;
+    background-color: #ff0000;
+    text-align: right;
     margin-left: 50px;
-    border-left: 10px;
-    border-bottom: 3px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 10px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
 }
 .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 10px;
-    border-bottom: 3px;
+    border-top: 0px;
+    border-right: 10px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    border-left: 0px;
 }
 .yellow{
     background-color: #ffff00;
-    text-align: left;
-    margin-right: 50px;
-    border-right: 10px;
-    border-bottom: 3px;
+    text-align: right;
+    margin-left: 50px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 10px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
 }
 .yellow h2{
     color: #000000;
@@ -70,16 +73,20 @@ div{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 10px;
-    border-bottom: 3px;
+    border-top: 0px;
+    border-right: 10px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    border-left: 0px;
 }
 span{
     text-decoration: underline;
-    text-shadow: 0 0;
+    text-shadow:0px 0px;
+    text-transform: uppercase;
+
 }
 footer{
-    background-image: linear-gradient(to 
-    right, #000000, #0000ff 25%, #0066ff 70%, #000000);
+    background-image: linear-gradient(to left, #000000 0%,
+     #0000ff 25%, #0066ff 70%, #000000 100%);
 }
 footer p{
     text-align: center;
